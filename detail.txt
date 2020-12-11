@@ -1,0 +1,15 @@
+Node version : 10+
+Mysql version : 5+
+NPM : 6+
+
+Install/download all of the above is required 
+
+-- Import db in mysql
+-- Install all modules in node setup (cmd : npm install)
+-- Change for connect mysql db in --> article_test/config/database_connection.js
+-- For start api run cmd : REFERRER=123456 nodemon app.js
+ * You can change REFERRER and send with API calling header
+
+For the unit test run cmd : npm test
+ * First, you need to stop the node server, if the server is already started
+
